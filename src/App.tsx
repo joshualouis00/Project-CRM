@@ -5,7 +5,6 @@ import {
     Resource,
 } from 'react-admin';
 import { Route } from 'react-router-dom';
-
 import categories from './categories';
 import { Dashboard } from './dashboard';
 import englishMessages from './i18n/en';
@@ -18,6 +17,8 @@ import Segments from './segments/Segments';
 import visitors from './visitors';
 import { themes } from './themes/themes';
 import dataProvider from './dataProvider';
+import authProvider from './auth/authProvider';
+import { Login } from './auth/login';
 
 const i18nProvider = polyglotI18nProvider(
     locale => {
@@ -47,6 +48,9 @@ const App = () => {
             theme={defaultTheme.light}
             darkTheme={defaultTheme.dark}
             defaultTheme="light"
+            loginPage={Login}
+            authProvider={authProvider}
+            requireAuth
         >
             <CustomRoutes>
                 <Route path="/segments" element={<Segments />} />
