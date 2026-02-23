@@ -1,21 +1,20 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import fakeServerWorker from "./fakeServer";
 
-import App from './App';
-import fakeServerWorker from './fakeServer';
-
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 if (!container) {
-    throw new Error('No container found');
+    throw new Error("No container found");
 }
 const root = createRoot(container);
 
-fakeServerWorker(import.meta.env.REACT_APP_DATA_PROVIDER ?? '')
-    .then(worker =>
+fakeServerWorker()
+    .then((worker) =>
         worker.start({
-            onUnhandledRequest: 'bypass',
+            onUnhandledRequest: "bypass",
             quiet: true,
-            serviceWorker: { url: './mockServiceWorker.js' },
-        })
+            serviceWorker: { url: "./mockServiceWorker.js" },
+        }),
     )
     .then(() => {
         root.render(<App />);

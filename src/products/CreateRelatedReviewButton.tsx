@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { CreateButton, useRecordContext } from 'react-admin';
 
 const CreateRelatedReviewButton = () => {

@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { useState } from 'react';
 import { Box } from '@mui/material';
 import LabelIcon from '@mui/icons-material/Label';

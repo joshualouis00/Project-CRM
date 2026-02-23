@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Table, TableBody, TableCell, TableRow } from '@mui/material';
 import { useRecordContext, useTranslate } from 'react-admin';
 

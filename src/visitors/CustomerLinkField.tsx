@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Link, useRecordContext } from 'react-admin';
 
 import FullNameField from './FullNameField';

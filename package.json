@@ -19,6 +19,7 @@
     "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6",
     "jwt-decode": "^4.0.0",
+    "msw": "^2.12.10",
     "ra-data-fakerest": "^5.14.2",
     "ra-data-graphql": "^5.14.2",
     "ra-data-graphql-simple": "^5.14.2",

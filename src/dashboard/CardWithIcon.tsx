@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { type FC, createElement, type ReactNode } from 'react';
 import { Card, Box, Typography, Divider } from '@mui/material';
 import { Link, type To } from 'react-router-dom';

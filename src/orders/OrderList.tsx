@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Fragment, useCallback } from 'react';
 import {
     AutocompleteInput,
@@ -26,6 +26,7 @@ import CustomerReferenceField from '../visitors/CustomerReferenceField';
 import AddressField from '../visitors/AddressField';
 import MobileGrid from './MobileGrid';
 import type { Customer, Order } from '../types/types';
+import React from 'react';
 
 const storeKeyByStatus = {
     ordered: 'orders.list1',
@@ -109,7 +110,7 @@ const TabbedDatagrid = () => {
     );
 
     const handleChange = useCallback(
-        (event: React.ChangeEvent<{}>, value: any) => {
+        (_event: React.ChangeEvent<{}>, value: any) => {
             setFilters &&
                 setFilters(
                     { ...filterValues, status: value },

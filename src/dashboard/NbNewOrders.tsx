@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useTranslate } from 'react-admin';
 

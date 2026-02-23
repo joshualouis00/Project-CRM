@@ -19,7 +19,7 @@ const StarRatingInput = (props: InputProps) => {
             <StyledRating
                 {...field}
                 icon={<Icon />}
-                onChange={(event, value) => field.onChange(value)}
+                onChange={(_event, value) => field.onChange(value)}
             />
         </Box>
     );

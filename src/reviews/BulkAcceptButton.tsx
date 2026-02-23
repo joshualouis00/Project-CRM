@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import ThumbUp from '@mui/icons-material/ThumbUp';
 
 import {

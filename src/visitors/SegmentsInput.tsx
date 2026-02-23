@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { SelectArrayInput, type SelectArrayInputProps } from 'react-admin';
 
 import segments from '../segments/data';

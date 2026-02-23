@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Card, CardContent } from '@mui/material';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOnOutlined';

@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { List } from '@mui/material';
 import { RecordContextProvider, useListContext } from 'react-admin';
 

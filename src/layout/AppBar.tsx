@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { AppBar, TitlePortal } from 'react-admin';
 import { Box, useMediaQuery, type Theme } from '@mui/material';
 

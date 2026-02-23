@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { ReferenceField, type ReferenceFieldProps, TextField } from 'react-admin';
 
 interface Props {

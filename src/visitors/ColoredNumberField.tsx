@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { useRecordContext, NumberField, type NumberFieldProps } from 'react-admin';
 
 const ColoredNumberField = (props: NumberFieldProps) => {

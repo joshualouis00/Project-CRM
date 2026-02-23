@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Avatar, type SxProps } from '@mui/material';
 import { type FieldProps, useRecordContext } from 'react-admin';
 import type { Customer } from '../types/types';

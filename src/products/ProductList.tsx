@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Box, Chip, useMediaQuery, type Theme } from '@mui/material';
 import {
     CreateButton,

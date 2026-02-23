@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Stack, Chip } from '@mui/material';
 import { type FieldProps, useTranslate, useRecordContext } from 'react-admin';
 import segments from '../segments/data';

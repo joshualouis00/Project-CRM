@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { Typography } from '@mui/material';
 import { Login as RaLogin, LoginForm } from 'react-admin';
 

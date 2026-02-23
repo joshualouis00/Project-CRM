@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import {
     DataTable,
     DateField,
@@ -24,6 +24,7 @@ import CustomerReferenceField from '../visitors/CustomerReferenceField';
 import StarRatingField from '../reviews/StarRatingField';
 import Poster from './Poster';
 import CreateRelatedReviewButton from './CreateRelatedReviewButton';
+import React from 'react';
 
 const RichTextInput = React.lazy(() =>
     import('ra-input-rich-text').then(module => ({
