@@ -9,7 +9,7 @@ if (!container) {
 }
 const root = createRoot(container);
 
-fakeServerWorker(process.env.REACT_APP_DATA_PROVIDER ?? '')
+fakeServerWorker(import.meta.env.REACT_APP_DATA_PROVIDER ?? '')
     .then(worker =>
         worker.start({
             onUnhandledRequest: 'bypass',
