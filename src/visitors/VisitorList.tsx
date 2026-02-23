@@ -21,7 +21,7 @@ import SegmentInput from './SegmentInput';
 import CustomerLinkField from './CustomerLinkField';
 import MobileGrid from './MobileGrid';
 import VisitorListAside from './VisitorListAside';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const visitorFilters = [
     <SearchInput source="q" alwaysOn />,

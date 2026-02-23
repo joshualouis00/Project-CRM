@@ -4,7 +4,7 @@ import { useTranslate, useRecordContext } from 'react-admin';
 import { stringify } from 'query-string';
 
 import products from '../products';
-import type { Category } from '../types';
+import type { Category } from '../types/types';
 
 const LinkToRelatedProducts = () => {
     const record = useRecordContext<Category>();

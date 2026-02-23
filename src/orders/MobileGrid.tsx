@@ -13,7 +13,7 @@ import {
 } from 'react-admin';
 
 import CustomerReferenceField from '../visitors/CustomerReferenceField';
-import type { Order } from '../types';
+import type { Order } from '../types/types';
 
 const MobileGrid = () => {
     const { data, error, isPending } = useListContext<Order>();

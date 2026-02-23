@@ -8,7 +8,7 @@ import {
     useRedirect,
     useRecordContext,
 } from 'react-admin';
-import type { Review } from '../types';
+import type { Review } from '../types/types';
 
 /**
  * This custom button demonstrate using a custom action to update data

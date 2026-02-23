@@ -9,7 +9,7 @@ import {
 import { Link } from 'react-router-dom';
 import { useTranslate, useReference } from 'react-admin';
 
-import type { Customer, Order } from '../types';
+import type { Customer, Order } from '../types/types';
 
 interface Props {
     order: Order;

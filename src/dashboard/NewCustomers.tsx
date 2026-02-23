@@ -11,7 +11,7 @@ import {
 import { subDays } from 'date-fns';
 
 import CardWithIcon from './CardWithIcon';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const NewCustomers = () => {
     const translate = useTranslate();

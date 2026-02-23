@@ -2,7 +2,7 @@ import type { SxProps } from '@mui/material';
 import { green, orange, red } from '@mui/material/colors';
 import type { Identifier } from 'react-admin';
 
-import type { Review } from './../types';
+import type { Review } from '../types/types';
 
 const rowSx =
     (selectedRow?: Identifier) =>

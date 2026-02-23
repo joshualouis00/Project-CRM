@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link, useRecordContext } from 'react-admin';
 
 import FullNameField from './FullNameField';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const CustomerLinkField = () => {
     const record = useRecordContext<Customer>();

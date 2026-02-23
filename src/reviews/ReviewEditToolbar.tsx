@@ -12,7 +12,7 @@ import {
 } from 'react-admin';
 import AcceptButton from './AcceptButton';
 import RejectButton from './RejectButton';
-import type { Review } from '../types';
+import type { Review } from '../types/types';
 
 const ReviewEditToolbar = (props: ToolbarProps) => {
     const { resource } = props;

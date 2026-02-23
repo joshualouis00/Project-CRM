@@ -14,7 +14,7 @@ import {
     DataTable,
 } from 'react-admin';
 
-import { type Invoice } from '../types';
+import { type Invoice } from '../types/types';
 import FullNameField from '../visitors/FullNameField';
 import AddressField from '../visitors/AddressField';
 import InvoiceShow from './InvoiceShow';

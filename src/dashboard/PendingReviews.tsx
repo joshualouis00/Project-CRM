@@ -24,7 +24,7 @@ import { stringify } from 'query-string';
 
 import CardWithIcon from './CardWithIcon';
 import StarRatingField from '../reviews/StarRatingField';
-import type { Customer, Review } from '../types';
+import type { Customer, Review } from '../types/types';
 
 const PendingReviews = () => {
     const translate = useTranslate();

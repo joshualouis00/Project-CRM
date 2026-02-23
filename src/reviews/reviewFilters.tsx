@@ -8,7 +8,7 @@ import {
 import { green, orange, red } from '@mui/material/colors';
 import { Box } from '@mui/material';
 
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const colorMap: { [key: string]: string } = {
     accepted: green[500],

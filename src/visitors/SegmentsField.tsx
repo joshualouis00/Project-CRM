@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Stack, Chip } from '@mui/material';
 import { type FieldProps, useTranslate, useRecordContext } from 'react-admin';
 import segments from '../segments/data';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const segmentsById = segments.reduce(
     (acc, segment) => {

@@ -16,7 +16,7 @@ import ProductReferenceField from '../products/ProductReferenceField';
 import CustomerReferenceField from '../visitors/CustomerReferenceField';
 import StarRatingField from './StarRatingField';
 import ReviewEditToolbar from './ReviewEditToolbar';
-import type { Review } from '../types';
+import type { Review } from '../types/types';
 
 interface ReviewEditProps {
     id: Review['id'];

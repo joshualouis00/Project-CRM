@@ -8,6 +8,7 @@ import { Route } from 'react-router-dom';
 import categories from './categories';
 import { Dashboard } from './dashboard';
 import englishMessages from './i18n/en';
+import indonesianMessages from './i18n/id';
 import invoices from './invoices';
 import { Layout } from './layout';
 import orders from './orders';
@@ -22,15 +23,15 @@ import { Login } from './auth/login';
 
 const i18nProvider = polyglotI18nProvider(
     locale => {
-        if (locale === 'fr') {
-            return import('./i18n/fr').then(messages => messages.default);
+        if (locale === 'id') {
+            return indonesianMessages;
         }
         return englishMessages;
     },
-    'en',
+    'id',
     [
+        { locale: 'id', name: 'Bahasa Indonesia' },
         { locale: 'en', name: 'English' },
-        { locale: 'fr', name: 'Français' },
     ]
 );
 

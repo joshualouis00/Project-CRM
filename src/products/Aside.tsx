@@ -10,7 +10,7 @@ import {
     useGetList,
 } from 'react-admin';
 
-import type { Category } from '../types';
+import type { Category } from '../types/types';
 import { humanize } from 'inflection';
 
 const Aside = () => {

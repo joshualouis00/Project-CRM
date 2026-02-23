@@ -11,7 +11,7 @@ import {
     useEditContext,
 } from 'react-admin';
 
-import { type Product } from '../types';
+import { type Product } from '../types/types';
 import ThumbnailField from '../products/ThumbnailField';
 import ProductRefField from '../products/ProductRefField';
 

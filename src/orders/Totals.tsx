@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Table, TableBody, TableCell, TableRow } from '@mui/material';
 import { useRecordContext, useTranslate } from 'react-admin';
 
-import type { Order } from '../types';
+import type { Order } from '../types/types';
 import { TableCellRight } from './TableCellRight';
 
 const Totals = () => {

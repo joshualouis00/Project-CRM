@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useRecordContext } from 'react-admin';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const AddressField = () => {
     const record = useRecordContext<Customer>();

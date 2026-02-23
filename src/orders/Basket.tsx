@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import { Link, useTranslate, useGetMany, useRecordContext } from 'react-admin';
 
-import type { Order, Product } from '../types';
+import type { Order, Product } from '../types/types';
 import { TableCellRight } from './TableCellRight';
 
 const Basket = () => {

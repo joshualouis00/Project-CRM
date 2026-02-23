@@ -20,7 +20,7 @@ import { SVGRenderer } from "echarts/renderers";
 
 import { format, subDays, addDays } from "date-fns";
 
-import type { Order } from "../types";
+import type { Order } from "../types/types";
 import type {
   DatasetComponentOption,
   GridComponentOption,

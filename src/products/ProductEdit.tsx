@@ -18,7 +18,7 @@ import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 import EditNoteIcon from '@mui/icons-material/EditNote';
 import ReviewIcon from '@mui/icons-material/Comment';
 
-import { type Review } from '../types';
+import { type Review } from '../types/types';
 import { ProductEditDetails } from './ProductEditDetails';
 import CustomerReferenceField from '../visitors/CustomerReferenceField';
 import StarRatingField from '../reviews/StarRatingField';

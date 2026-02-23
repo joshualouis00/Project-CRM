@@ -16,7 +16,7 @@ import {
 } from 'react-admin';
 
 import AvatarField from '../visitors/AvatarField';
-import type { Customer, Review } from './../types';
+import type { Customer, Review } from '../types/types';
 
 export const ReviewItem = () => {
     const record = useRecordContext<Review>();

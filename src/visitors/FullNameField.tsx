@@ -3,7 +3,7 @@ import { memo } from 'react';
 
 import { type FieldProps, useRecordContext } from 'react-admin';
 import AvatarField from './AvatarField';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 interface Props extends FieldProps<Customer> {
     size?: string;

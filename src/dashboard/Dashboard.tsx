@@ -15,7 +15,7 @@ import PendingOrders from './PendingOrders';
 import PendingReviews from './PendingReviews';
 import NewCustomers from './NewCustomers';
 
-import type { Order } from '../types';
+import type { Order } from '../types/types';
 
 interface OrderStats {
     revenue: number;

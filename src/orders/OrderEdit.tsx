@@ -18,7 +18,7 @@ import {
 } from 'react-admin';
 import { Card, CardContent, Box, Grid, Typography, Link } from '@mui/material';
 
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 import Basket from './Basket';
 import Totals from './Totals';
 

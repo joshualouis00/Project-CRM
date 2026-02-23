@@ -2,7 +2,7 @@ import ProductIcon from '@mui/icons-material/Collections';
 import ProductList from './ProductList';
 import ProductEdit from './ProductEdit';
 import ProductCreate from './ProductCreate';
-import type { Product } from '../types';
+import type { Product } from '../types/types';
 
 export default {
     list: ProductList,

@@ -13,7 +13,7 @@ import {
 import AvatarField from './AvatarField';
 import ColoredNumberField from './ColoredNumberField';
 import SegmentsField from './SegmentsField';
-import type { Customer } from '../types';
+import type { Customer } from '../types/types';
 
 const MobileGrid = () => {
     const translate = useTranslate();

@@ -25,7 +25,7 @@ import { useMediaQuery, Divider, Tabs, Tab, type Theme } from '@mui/material';
 import CustomerReferenceField from '../visitors/CustomerReferenceField';
 import AddressField from '../visitors/AddressField';
 import MobileGrid from './MobileGrid';
-import type { Customer, Order } from '../types';
+import type { Customer, Order } from '../types/types';
 
 const storeKeyByStatus = {
     ordered: 'orders.list1',

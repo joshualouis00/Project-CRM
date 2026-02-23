@@ -31,7 +31,7 @@ import type {
     Order as OrderRecord,
     Review as ReviewRecord,
     Customer,
-} from '../types';
+} from '../types/types';
 
 const Aside = () => {
     const record = useRecordContext<Customer>();

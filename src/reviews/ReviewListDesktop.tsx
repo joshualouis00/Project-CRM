@@ -14,7 +14,7 @@ import StarRatingField from './StarRatingField';
 import rowSx from './rowSx';
 import BulkAcceptButton from './BulkAcceptButton';
 import BulkRejectButton from './BulkRejectButton';
-import { type Review } from '../types';
+import { type Review } from '../types/types';
 
 export interface ReviewListDesktopProps {
     selectedRow?: Identifier;

@@ -1,6 +1,6 @@
 import { Card, CardMedia } from '@mui/material';
 import { useRecordContext } from 'react-admin';
-import type { Product } from '../types';
+import type { Product } from '../types/types';
 
 const Poster = () => {
     const record = useRecordContext<Product>();

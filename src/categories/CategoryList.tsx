@@ -17,7 +17,7 @@ import {
 import { humanize } from 'inflection';
 
 import LinkToRelatedProducts from './LinkToRelatedProducts';
-import type { Category } from '../types';
+import type { Category } from '../types/types';
 
 const CategoriesTitle = () => {
     const title = useDefaultTitle();

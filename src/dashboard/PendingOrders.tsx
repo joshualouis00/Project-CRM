@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Card, CardHeader, List } from '@mui/material';
 import { useTranslate } from 'react-admin';
 
-import type { Order } from '../types';
+import type { Order } from '../types/types';
 import { PendingOrder } from './PendingOrder';
 
 interface Props {

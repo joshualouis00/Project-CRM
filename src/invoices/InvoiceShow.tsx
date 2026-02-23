@@ -3,7 +3,7 @@ import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 import { ReferenceField, TextField, useRecordContext } from 'react-admin';
 
 import Basket from '../orders/Basket';
-import type { Customer, Invoice } from '../types';
+import type { Customer, Invoice } from '../types/types';
 
 const InvoiceShow = () => {
     const record = useRecordContext<Invoice>();
